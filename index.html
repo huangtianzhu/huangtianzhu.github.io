@@ -5,7 +5,8 @@
     <title>黄天柱的世界</title>
 </head>
 <body bgcolor="green"   >
-        <h4><em >I'll  keep something here!</em> </h4><br><br>
+　
+        <h4 ><em ><font size="6">  I'll  keep something here!</font></em> </h4><br><br>
     <img src="images/aq.jpg" alt="安庆师范学院" width="350" height="250"/><img src="images/1.jpg"
             alt="心之所往，静水流长"  width="350" height="250"/>
         <img src="images/2.jpg" alt="安师院致景" width="350" height="250"/><br><br>
@@ -16,39 +17,32 @@
         <a href="http://blog.csdn.net/u012706811 " style=color:gold><font size="6">牛李的blog</font></a><br><br>
 
         <a href="文集.html" style="color: blue"><font size="6">个人作品文集</font></a>
+<h1><SCRIPT FOR=window EVENT=onload LANGUAGE="JScript">
+    initAd();
+</SCRIPT>
+    　　 <script language="JScript">
 
+        function initAd() {
+            document.all.AdLayer.style.posTop = -200;
+            document.all.AdLayer.style.visibility = 'visible'
+            MoveLayer('AdLayer');//调用函数MoveLayer()
+        }
+        function MoveLayer(layerName) {
+            var x = 1000;
+            var y = 200;
+            var diff = (document.body.scrollTop + y - document.all.AdLayer.style.posTop)*.40;
+            var y = document.body.scrollTop + y - diff;
+            eval("document.all." + layerName + ".style.posTop = y");
+            eval("document.all." + layerName + ".style.posLeft = x");
+            setTimeout("MoveLayer('AdLayer');", 20);
+        }
 
+    </script>
 
+    　　 <div id=AdLayer style='position:absolute; width:61px; height:59px; z-index:20; visibility:hidden;; left: 600px; top: 300px'>
+        　　 <a href=" http://www.baidu.com"><img src='image/1.jpg' border="0" height="60" width="60"></a>
+        　　 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
-
-
-
-
 </html>
