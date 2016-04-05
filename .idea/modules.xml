@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/huangtianzhu.github.io.iml" filepath="$PROJECT_DIR$/huangtianzhu.github.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liu/liu.iml" filepath="$PROJECT_DIR$/liu/liu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/www.huangtianzhu.com.iml" filepath="$PROJECT_DIR$/www.huangtianzhu.com.iml" />
     </modules>
   </component>
 </project>
