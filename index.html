@@ -106,6 +106,15 @@
             clear: both ;
 
         }
+        [title]{
+            color: blueviolet;
+        }
+        [title =te]{
+            color: blueviolet;
+        }
+        [title=f]{
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -115,20 +124,20 @@
     <div id="content_menu"><a href="个人介绍.html" target="_top ">全屏</a><br><br>
         <form>
             个人介绍：<br><br>
-            港主：<input type ="text" value="黄天柱" ><br><br>
-            相片：<br><br><img src="images/lh.jpg"><br><br>
-            出生年月：<input type ="text" value="1993.1" ><br><br>
-            原产地：<input type ="text" value="安徽省合肥市长丰县" ><br><br>
-            读书地：<input type ="text" value="安庆" ><br><br>
+            港主：<input title="te" type ="text" value="黄天柱" ><br/><br/>
+            相片：<br/><br/><img src="images/lh.jpg"><br/><br/>
+            出生年月：<input title="t"  type ="text" value="1993.1" ><br/><br/>
+            原产地：<input title="t"  type ="text" value="安徽省合肥市长丰县" ><br/><br/>
+            读书地：<input  title="t" type ="text" value="安庆" ><br/><br/>
         </form>
-        爱好：<br><br>
-        <textarea cols="20" rows="10" >兵乓球，台球，诗词歌赋，密码破解，文件恢复，网页设计，sql注入攻击</textarea>
-        <br><br>
+        爱好：<br/><br/>
+        <textarea title="f" cols="20" rows="10" >兵乓球，台球，密码破解，文件恢复，网页设计，sql注入攻击</textarea>
+        <br/><br/>
         目前状态：
         <dl>
-            <dd> 事业 <input type ="text" value="就读安徽理工大学" ><br><br></dd>
-            <dd> 爱情<input type ="text" value="七年后" ><br><br></dd>
-            <dd>行业<input type ="text" value="IT" ><br><br></dd>
+            <dd> 事业 <input title="t"   type ="text" value="就读安徽理工大学" ><br><br></dd>
+            <dd> 爱情<input title="te"  type ="text" value="七年后" ><br><br></dd>
+            <dd>行业<input title="t"  type ="text" value="IT" ><br><br></dd>
         </dl>
     </div>
 
@@ -191,7 +200,7 @@
     </div>
 
     <div id="footing">
-        <a href="http://www.ithome.com/">IT之家</a>&nbsp;&nbsp;&nbsp;
+        <a href="http://user.qzone.qq.com/2250082486/">IT之家</a>&nbsp;&nbsp;&nbsp;
         <a href="http://www.jikexueyuan.com/path/html5/">极客学院 </a>
     </div>
 
